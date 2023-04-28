@@ -1,4 +1,4 @@
-## Shoe_Inventory_Management-System
+# Shoe_Inventory_Management-System
 This is a Shoe Inventory Management System built with Python. This program helps to manage and keep track of shoes in an inventory. It can perform the following functions:
 
    * Read shoes data from a file
@@ -7,7 +7,7 @@ This is a Shoe Inventory Management System built with Python. This program helps
    * Restock shoes
    * Search for a shoe from the inventory
 
-# Installation
+## Installation
 
 To use this program, follow the instructions below:
 
@@ -16,7 +16,7 @@ To use this program, follow the instructions below:
    * Open the terminal and navigate to the directory where you saved the inventory.py file.
    * Run the command python3 inventory.py to start the program.
 
-# Usage
+## Usage
 
 The program will present a menu of options to choose from:
 
@@ -26,7 +26,7 @@ The program will present a menu of options to choose from:
    * Press 4 to search for a shoe from the inventory
    * Press 5 to exit the program
 
-#Adding Shoes to the Inventory
+### Adding Shoes to the Inventory
 
 To add shoes to the inventory, select option 1 from the main menu. Then, enter the following information:
 
@@ -36,17 +36,18 @@ To add shoes to the inventory, select option 1 from the main menu. Then, enter t
    * The cost of the product
    * The quantity/amount of product currently in stock
 
-#Viewing All the Shoes in the Inventory
+### Viewing All the Shoes in the Inventory
 
 To view all the shoes in the inventory, select option 2 from the main menu. The program will display the details of all the shoes in the inventory.
 
-# Restocking Shoes
+### Restocking Shoes
 
 To restock shoes, select option 3 from the main menu. The program will find the shoe object with the lowest quantity, which is the shoes that need to be restocked. Then, the program will ask the user if they want to add this quantity of shoes and then update it on the file.
 
-#Searching for a Shoe from the Inventory
+### Searching for a Shoe from the Inventory
 
 To search for a shoe from the inventory, select option 4 from the main menu. Then, enter the identification code (e.g. SKU76055) for the shoe that you want to search for. The program will search for the shoe in the inventory and return the details of the shoe.
-Exiting the Program
+
+### Exiting the Program
 
 To exit the program, select option 5 from the main menu. The program will exit.
